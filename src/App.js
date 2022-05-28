@@ -1,7 +1,8 @@
 import './App.css';
-import { Project } from './Components/Project';
+import { Project } from './components/Project';
 
 function App() {
+
   return (
     <div className="App">
       <section class="hero is-fullheight" style={{ backgroundColor: "#101010" }}>
@@ -27,7 +28,7 @@ function App() {
 
       </section>
 
-      <Project title="Web App #1"/>
+      <Project title="Film Street" imageUrl={`${process.env.PUBLIC_URL}/assets/film_street_snip.png`}/>
       <Project title="Web App #2"/>
       <Project title="Web App #3"/>
       <Project title="Web App #4"/>
