@@ -1,0 +1,7 @@
+[
+    {
+        "project_name": "Film Street",
+        "image": "url",
+        "tools": "{['Angular', 'Material UI', 'REST APIs', 'PostgreSQL Database Associations', 'Persist items to database using Node.js', 'Login, Sign up, and Authentication']}"
+    }
+]

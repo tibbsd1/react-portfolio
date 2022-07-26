@@ -1,8 +1,11 @@
 import './App.css';
 import { Project } from './components/Project';
+import data from './components/data/skills.json';
+
 
 function App() {
-
+  const jsonData = JSON.parse(data)
+  
   return (
     <div className="App">
       <section class="hero is-fullheight" style={{ backgroundColor: "#101010" }}>
@@ -28,11 +31,11 @@ function App() {
 
       </section>
 
-      <Project title="Film Street" imageUrl={`${process.env.PUBLIC_URL}/assets/film_street_snip.png`}/>
-      <Project title="Web App #2"/>
-      <Project title="Web App #3"/>
-      <Project title="Web App #4"/>
-      <Project title="Web App #5"/>
+      <Project title="Film Street" imageUrl={`${process.env.PUBLIC_URL}/assets/film_street_snip.png`} skills={jsonData} />
+      <Project title="Web App #2" />
+      <Project title="Web App #3" />
+      <Project title="Web App #4" />
+      <Project title="Web App #5" />
 
     </div>
   );
