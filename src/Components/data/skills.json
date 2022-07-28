@@ -1,7 +1,44 @@
 [
     {
-        "project_name": "Film Street",
-        "image": "url",
-        "tools": "{['Angular', 'Material UI', 'REST APIs', 'PostgreSQL Database Associations', 'Persist items to database using Node.js', 'Login, Sign up, and Authentication']}"
+        "title": "Film Street",
+        "image": "film_street_snip.png",
+        "tools": [
+            "Angular",
+            "Material UI",
+            "REST APIs",
+            "PostgreSQL Database Associations",
+            "Node.js",
+            "Login, Sign up, and Authentication",
+            "JSON Web Tokens"
+        ],
+        "link":"http://movie-api-dt.herokuapp.com/"
+    },
+    {
+        "title": "Music App",
+        "image": "music_app_snip.png",
+        "tools": [
+            "React",
+            "Bootstrap",
+            "Node.js",
+            "Express",
+            "REST APIs",
+            "PostgreSQL",
+            "Heroku Server Deployment"
+        ],
+        "link":"https://dt-bluebadge-client.herokuapp.com/UploadTrack"
+    },
+    {
+        "title":"Roots Renewal",
+        "image":"roots_renewal_snip.png",
+        "tools": [
+            "WordPress",
+            "Divi",
+            "HTML",
+            "CSS",
+            "Wireframe",
+            "Search Engine Optimization"
+        ],
+        "link":"https://rootsrenewalranch.com/"
     }
+    
 ]

@@ -1,10 +1,10 @@
 import React from "react"
 
 
-export function Project({ title, imageUrl, skills }) {
+export function Project({ title, imageUrl, skills, link }) {
 
     return (
-       
+
         <section className="level hero is-halfheight" style={{ borderTop: "1px solid black" }}>
             <div className="level-item has-text-centered">
                 <div>
@@ -13,16 +13,18 @@ export function Project({ title, imageUrl, skills }) {
             </div>
             <div className="level-item has-text-centered">
                 <div style={{ maxWidth: '450px' }}>
-                <a href="http://movie-api-dt.herokuapp.com/"><img className="screen-cap" src={imageUrl} /></a>
+                    <a href={link}><img className="screen-cap" src={imageUrl} /></a>
                 </div>
             </div>
             <div className="level-item has-text-centered">
-                <div className="content">
+                <div>
                     <p className="title is-5">Tools</p>
-                    <p className="skills">{skills}</p>
+                    {skills && skills.map(skill => (
+                        <span className="tag is-link" key={skill} style={{marginRight: '1px'}}>{skill}</span>
+                    ))}
                 </div>
             </div>
-            
+
         </section>
     )
 }
