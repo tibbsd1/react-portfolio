@@ -13,7 +13,7 @@ export function Project({ title, imageUrl, skills, link }) {
             </div>
             <div className="level-item has-text-centered">
                 <div style={{ maxWidth: '450px' }}>
-                    <a href={link}><img className="screen-cap" src={imageUrl} /></a>
+                    <a href={link}><img className="screen-cap" src={imageUrl} alt='screenshot'/></a>
                 </div>
             </div>
             <div className="level-item has-text-centered">
