@@ -1,5 +1,5 @@
 import './App.css';
-import { Project } from './components/Project';
+import { Project } from '../src/components/Project';
 import data from '../src/components/data/skills.json';
 
 
@@ -27,23 +27,21 @@ function App() {
 
         <div className="bio container" style={{ maxWidth: "750px" }}>
 
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis modi, explicabo,
-            exercitationem officiis minima id tempore repellat, quae saepe non cumque veritatis tenetur vel illo quod odio
-            iste reiciendis itaque?</p>
+          <p><span>Hello friend,</span> my name is Darrell.</p>
         </div>
 
       </section>
 
       <section id='projects'>
 
-        {data.map(p => (
-          <Project title={p.title} imageUrl={`${process.env.PUBLIC_URL}/assets/${p.image}`} skills={p.tools} link={p.link} />
+        {data.map((p, i) => (
+          <Project key={i} title={p.title} imageUrl={`${process.env.PUBLIC_URL}/assets/${p.image}`} skills={p.tools} link={p.link} />
         ))}
       </section>
       <footer className='footer'>
         <div className='level'>
           <figure className="level-left image is-48x48">
-            <img className="level-item is-rounded" src={`${process.env.PUBLIC_URL}assets/headshot.jpg`} />
+            <img className="level-item is-rounded" src={`${process.env.PUBLIC_URL}assets/headshot.jpg`} alt='Darrell' />
             <div className='level-right'>
               <ul>
                 <li>Email: tibbsd1@gmail.com</li>
