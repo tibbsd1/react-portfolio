@@ -1,6 +1,6 @@
 import './App.css';
-import { Project } from '../src/components/Project';
-import data from '../src/components/data/skills.json';
+import { Project } from '../src/Components/Project';
+import data from '../src/Components/data/skills.json';
 
 
 function App() {
