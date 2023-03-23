@@ -1,5 +1,33 @@
 [
     {
+        "title":"DIOR",
+        "image":"defects.png",
+        "tools":[
+            "Power BI",
+            "Extract Transform Load (ETL)",
+            "Power Query",
+            "Data Visualization",
+            "Data Analysis Expressions (DAX)",
+            "Microsoft SQL Server",
+            "SQL Queries"
+        ]
+    },
+    {
+        "title": "M3 CAP",
+        "image": "m3cap.png",
+        "tools": [
+            "Angular",
+            "TypeScript",
+            "API Development",
+            "Data Integration",
+            "Debugging",
+            "C#",
+            "Microsoft SQL Server",
+            "Kendo UI",
+            "Azure DevOps"
+        ]
+    },
+    {
         "title": "Film Street",
         "image": "film_street_snip.png",
         "tools": [
@@ -11,7 +39,7 @@
             "Login, Sign up, and Authentication",
             "JSON Web Tokens"
         ],
-        "link":"http://movie-api-dt.herokuapp.com/"
+        "link": "http://movie-api-dt.herokuapp.com/"
     },
     {
         "title": "Music App",
@@ -25,11 +53,11 @@
             "PostgreSQL",
             "Heroku Server Deployment"
         ],
-        "link":"https://dt-bluebadge-client.herokuapp.com/UploadTrack"
+        "link": "https://dt-bluebadge-client.herokuapp.com/UploadTrack"
     },
     {
-        "title":"Roots Renewal",
-        "image":"roots_renewal_snip.png",
+        "title": "Roots Renewal",
+        "image": "roots_renewal_snip.png",
         "tools": [
             "WordPress",
             "Thrive",
@@ -37,14 +65,13 @@
             "HTML",
             "CSS",
             "SASS",
-            "Wireframe",
             "Search Engine Optimization"
         ],
-        "link":"https://rootsrenewalranch.com/"
+        "link": "https://rootsrenewalranch.com/"
     },
     {
-        "title":"Better Life Partners",
-        "image":"blp_manchester_snip.png",
+        "title": "Better Life Partners",
+        "image": "blp_manchester_snip.png",
         "tools": [
             "WordPress",
             "Divi",
@@ -54,11 +81,11 @@
             "Search Engine Optimization",
             "Page Optimizer Pro"
         ],
-        "link":"https://betterlifepartners.com/manchester/"
+        "link": "https://betterlifepartners.com/manchester/"
     },
     {
-        "title":"Ripple Ranch Recovery",
-        "image":"ripple_team_snip.png",
+        "title": "Ripple Ranch Recovery",
+        "image": "ripple_team_snip.png",
         "tools": [
             "WordPress",
             "Thrive",
@@ -67,7 +94,6 @@
             "Wireframe",
             "Search Engine Optimization"
         ],
-        "link":"https://rootsrenewalranch.com/team"
+        "link": "https://rootsrenewalranch.com/team"
     }
-    
 ]

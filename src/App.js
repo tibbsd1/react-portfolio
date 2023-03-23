@@ -1,6 +1,6 @@
 import './App.css';
-import { Project } from '../src/Components/Project';
-import data from '../src/Components/data/skills.json';
+import { Project } from '../src/components/Project';
+import data from '../src/components/data/skills.json';
 
 
 function App() {
@@ -27,13 +27,12 @@ function App() {
 
         <div className="bio container" style={{ maxWidth: "750px" }}>
 
-          <p><span>Hello friend,</span> my name is Darrell.</p>
+          <p><span>Hello friend.</span> I'm Darrell, a full Stack JavaScript and Microsoft Power BI platform developer. Thank you for being here and please take a look at my work below.</p>
         </div>
 
       </section>
 
       <section id='projects'>
-
         {data.map((p, i) => (
           <Project key={i} title={p.title} imageUrl={`${process.env.PUBLIC_URL}/assets/${p.image}`} skills={p.tools} link={p.link} />
         ))}
