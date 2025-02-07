@@ -27,7 +27,7 @@ function App() {
 
         <div className="bio container" style={{ maxWidth: "750px" }}>
 
-          <p><span>Hello friend.</span> I'm Darrell, a full Stack JavaScript and Microsoft Power BI platform developer. Thank you for being here and please take a look at my work below.</p>
+          <p><span>Hello friend.</span> I'm Darrell, a full Stack JavaScript and Node developer. Thank you for being here, please take a look at my work below.</p>
         </div>
 
       </section>
